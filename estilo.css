@@ -1,0 +1,40 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+}
+
+h1{
+    color: rgb(79, 66, 168);
+}
+
+section{
+    background-color: rgb(85, 123, 161);
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 700px;
+}
+
+h2{
+    color: rgb(66, 0, 219);
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: blanchedalmond;
+    font-weight: bold;
+
+}
+
+p{color: rgb(0, 0, 0);
+
+}
+
+a{
+    color: rgb(62, 203, 250);
+}
