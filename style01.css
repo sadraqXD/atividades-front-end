@@ -1,0 +1,11 @@
+.caixa{
+    border: 2px solid orangered;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+}
+
+#aviso{
+    width: 200px;
+    height: 100px;
+}

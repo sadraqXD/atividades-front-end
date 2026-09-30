@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal {
+    width: 80%;
+    margin: 30px auto;
+    background-color: aliceblue;
+    border: 1px orangered;
+}
+
+#topo_geral{
+    background-color: rgba(74, 90, 233, 0.521);
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(243, 17, 17, 0.781);
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a{
+    display: block;
+    color: aliceblue;
+    padding: 10px 18px;
+    border: 2px orangered;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    color: rgb(233, 95, 233);
+}
