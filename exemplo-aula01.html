@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <h1></h1>
+    <p>
+        O programa mostrará uma saudação e uma recomendação do clima atual.
+    </p>
+    
+    <script>
+        const dataHora = new Date();
+        const hora = dataHora.getHours();
+
+        let previsaoTempo = prompt(
+            "Como está o dia hoje? Digite chuvoso ou ensolarado:"
+        );
+
+        previsaoTempo = previsaoTempo.toLowerCase().trim();
+
+        if (hora < 12) {
+            alert("Bom dia");
+            if (previsaoTempo === "chuvoso") {
+                alert("Está chovendo, não esqueça o guarda-chuva");
+            } else if (previsaoTempo === "ensolarado") {
+                alert("Está ensolarado, que ótimo dia para uma piscina");
+            } else {
+                alert("Nenhuma opção selecionada...");
+            }
+
+        } else if (hora < 18) {
+            alert("Boa tarde");
+            if (previsaoTempo === "chuvoso") {
+                alert("Está chovendo, não esqueça o guarda-chuva");
+            } else if (previsaoTempo === "ensolarado") {
+                alert("Está ensolarado, que ótimo dia para uma piscina");
+            } else {
+                alert("Nenhuma opção selecionada...");
+            }
+
+        } else {
+            alert("Boa noite");
+            if (previsaoTempo === "chuvoso") {
+                alert("Está chovendo, não esqueça o guarda-chuva");
+            } else if (previsaoTempo === "ensolarado") {
+                alert("Está ensolarado, que ótimo dia para uma piscina");
+            } else {
+                alert("Nenhuma opção selecionada...");
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
